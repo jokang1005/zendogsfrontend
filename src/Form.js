@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = (props) => {
   //STATE FOR THE FORM
-  const [formData, setFormData] = React.useEffect(props.dog);
+  const [formData, setFormData] = React.useState(props.dog);
 
   //FUNCTIONS
   const handleSubmit = (event) => {
