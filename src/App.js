@@ -7,7 +7,7 @@ import Form from "./Form";
 function App() {
 
   //URL variable
-  const url = "http://jlzendogsbackend.herokuapp.com";
+  const url = "https://jlzendogsbackend.herokuapp.com";
   //once you get our API, you need to store it somewhere - use hook to hold dogs
   //LIST OF DOGS STATE
   const [dogs, setDogs] = React.useState([])
